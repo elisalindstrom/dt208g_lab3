@@ -1,3 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
 
 /* Grundinställningar för hela applikationen (t.ex. body) */
+
+$fontstack: 'Courier New', Courier, monospace;
+$background-color: #fdfcf9;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $fontstack;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+    background-color: $background-color;
+}
+
+p {
+    font-family: Geneva, Tahoma, sans-serif;
+    max-width: 60ch;
+    margin-bottom: 1.5rem;
+}

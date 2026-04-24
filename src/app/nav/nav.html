@@ -1,7 +1,11 @@
-<nav>
-    <ul>
-        <li><a routerLink="home" routerLinkActive="current">Startsida</a></li>
-        <li><a routerLink="convert" routerLinkActive="current">Konvertera</a></li>
-        <li><a routerLink="about" routerLinkActive="current">Om webbplatsen</a></li>
-    </ul>
-</nav>
+<div class="navbar">
+    <a routerLink="home" class="logo">Laboration 3</a>
+    <nav class="nav">
+        <ul class="nav-links">
+            <li><a routerLink="convert" routerLinkActive="active" [routerLinkActiveOptions]="{exact:
+true}">Konvertera</a></li>
+            <li><a routerLink="about" routerLinkActive="active" [routerLinkActiveOptions]="{exact:
+true}">Uppgiften</a></li>
+        </ul>
+    </nav>
+</div>
