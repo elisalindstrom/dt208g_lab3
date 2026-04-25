@@ -1,6 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
-
-/* Grundinställningar för hela applikationen (t.ex. body) */
+/* Grundinställningar för hela applikationen */
 
 $fontstack: 'Courier New', Courier, monospace;
 $background-color: #fdfcf9;
@@ -23,4 +21,9 @@ p {
     font-family: Geneva, Tahoma, sans-serif;
     max-width: 60ch;
     margin-bottom: 1.5rem;
+}
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 0.5rem;
 }
