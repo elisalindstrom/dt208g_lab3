@@ -10,3 +10,14 @@
     padding: 20px;
     margin: 0 auto;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem;
+
+    h2 {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+}
