@@ -21,3 +21,11 @@ footer {
         font-weight: lighter;
     }
 }
+
+@media (max-width: 600px) {
+    footer {
+        h2 {
+            font-size: 16px;
+        }
+    }
+}
